@@ -251,7 +251,7 @@ html, body {
   
   #about .image-container img {
     max-width: 100%;
-    height: auto;
+    height: 60%;
   }
   
   #about .about-content {
