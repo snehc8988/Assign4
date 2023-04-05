@@ -1,0 +1,240 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  main {
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    min-height: 60%;
+  }
+  
+/*-------------------------------------------------------------------------------*/
+
+  header {
+    background-color: #08a765;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #08a765;
+  }
+  
+  nav {
+    font-size: 25px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 30px;
+  }
+    
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #fff;
+  }
+
+/*-------------------------------------------------------------------------------*/
+
+  #Belladonna {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+    text-align: Left;
+  }
+  
+  #Belladonna h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #Belladonna p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /*-------------------------------------------------------------------------------*/
+  #Averalli {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+    text-align: left;
+  }
+  
+  #Averalli h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #Averalli p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+/*-------------------------------------------------------------------------------*/
+  #Forquet {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+    text-align: left;
+  }
+  
+  #Forquet h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #Forquet p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  /*-------------------------------------------------------------------------------*/
+  #Garozzo {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+    text-align: left;
+  }
+  
+  #Garozzo h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #Garozzo p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  /*-------------------------------------------------------------------------------*/
+  #about {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #about p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+/*-------------------------------------------------------------------------------*/
+  #Bibliography {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #Bibliography h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #Bibliography p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+    
+  #Bibliography ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+    
+  #Bibliography li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+#Bibliography a {
+  color: #0077cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0077cc;
+  transition: all 0.2s ease-in-out;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+  
+
+#Bibliography a:hover {
+  color: #0059a6;
+  border-bottom-color: #0059a6;
+  font-size: 22px;
+  padding-bottom: 6px;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.left {
+  flex-basis: 30%;
+  margin-right: 1rem;
+}
+
+.right {
+  flex-basis: 30%;
+  margin-left: 1
+} 
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-content {
+  flex: 1;
+  margin-right: 20px;
+}
+.GBimg {
+  float: left;
+  margin-left: 5%;
+}
