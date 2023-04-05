@@ -16,12 +16,12 @@ html, body {
 /*-------------------------------------------------------------------------------*/
 
   header {
-    background-color: #08a765;
+    background-color: #2430a3;
     color: #ffffff;
     padding: 20px 0;
     display: flex;
     position: fixed;
-    justify-content: space-between;
+    justify-content: center;
     top: 0;
     left: 0;
     right: 0;
@@ -35,7 +35,7 @@ html, body {
   h2 {
     font-size: 36px;
     margin: 0;
-    color: #08a765;
+    color: #2430a3;
   }
   
   nav {
@@ -90,6 +90,22 @@ html, body {
     max-width: 600px;
     margin: 0 auto;
   }
+  #Belladonna a {
+    color: #14a3db;
+    text-decoration: none;
+    border-bottom: 1px solid #14a3db;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    padding-bottom: 1px;
+  }
+    
+  
+  #Belladonna a:hover {
+    color: #14a3db;
+    border-bottom-color: #14a3db;
+    font-size: 22px;
+    padding-bottom: 2px;
+  }
 
   /*-------------------------------------------------------------------------------*/
   #Averalli {
@@ -110,6 +126,22 @@ html, body {
     max-width: 600px;
     margin: 0 auto;
   }
+  #Averalli a {
+    color: #14a3db;
+    text-decoration: none;
+    border-bottom: 1px solid #14a3db;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    padding-bottom: 1px;
+  }
+    
+  
+  #Averalli a:hover {
+    color: #14a3db;
+    border-bottom-color: #14a3db;
+    font-size: 22px;
+    padding-bottom: 2px;
+  }
 /*-------------------------------------------------------------------------------*/
   #Forquet {
     background-color: #ffffff;
@@ -129,6 +161,23 @@ html, body {
     max-width: 600px;
     margin: 0 auto;
   }
+  #Forquet a {
+    color: #14a3db;
+    text-decoration: none;
+    border-bottom: 1px solid #14a3db;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    padding-bottom: 1px;
+  }
+    
+  
+  #Forquet a:hover {
+    color: #14a3db;
+    border-bottom-color: #14a3db;
+    font-size: 22px;
+    padding-bottom: 2px;
+  }
+
   /*-------------------------------------------------------------------------------*/
   #Garozzo {
     background-color: #ffffff;
@@ -147,6 +196,22 @@ html, body {
     margin-bottom: 40px;
     max-width: 600px;
     margin: 0 auto;
+  }
+  #Garozzo a {
+    color: #14a3db;
+    text-decoration: none;
+    border-bottom: 1px solid #14a3db;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    padding-bottom: 1px;
+  }
+    
+  
+  #Garozzo a:hover {
+    color: #14a3db;
+    border-bottom-color: #14a3db;
+    font-size: 22px;
+    padding-bottom: 2px;
   }
   /*-------------------------------------------------------------------------------*/
   .grid-container {
@@ -254,9 +319,9 @@ html, body {
   }
 
 #Bibliography a {
-  color: #0077cc;
+  color: #14a3db;
   text-decoration: none;
-  border-bottom: 1px solid #0077cc;
+  border-bottom: 1px solid #14a3db;
   transition: all 0.2s ease-in-out;
   font-size: 20px;
   padding-bottom: 5px;
@@ -264,8 +329,8 @@ html, body {
   
 
 #Bibliography a:hover {
-  color: #0059a6;
-  border-bottom-color: #0059a6;
+  color: #14a3db;
+  border-bottom-color: #14a3db;
   font-size: 22px;
   padding-bottom: 6px;
 }
@@ -302,3 +367,7 @@ html, body {
   float: left;
   margin-left: 5%;
 }
+.info{
+  margin-left: -25px;
+}
+
