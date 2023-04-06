@@ -63,11 +63,15 @@ html, body {
   }
 
   footer {
-    background-color: #f7f7f7;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
     color: #555;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
   }
 
 /*-------------------------------------------------------------------------------*/
@@ -76,6 +80,7 @@ html, body {
     background-color: #ffffff;
     padding: 80px 0;
     text-align: Left;
+    background-color: #ebeaea;
   }
   
   #Belladonna h2 {
@@ -147,6 +152,7 @@ html, body {
     background-color: #ffffff;
     padding: 80px 0;
     text-align: left;
+    background-color: #ebeaea;
   }
   
   #Forquet h2 {
@@ -242,6 +248,7 @@ html, body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     margin-top: 70px;
+    background-color: #ebeaea;
   }
   
   #about .image-container {
@@ -267,6 +274,7 @@ html, body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     margin-top: 10px; 
+
   }
   
   #about1 .image-container {
@@ -289,7 +297,7 @@ html, body {
   
 /*-------------------------------------------------------------------------------*/
   #Bibliography {
-    background-color: #ffffff;
+    background-color: #ebeaea;
     padding: 80px 0;
   }
   
@@ -372,4 +380,3 @@ html, body {
 .info{
   margin-left: -25px;
 }
-
